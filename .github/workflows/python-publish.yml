@@ -10,7 +10,7 @@ name: 1111
 
 on:
   schedule:
-    - cron: '31 6,16 * * *'
+    - cron: '31 6,16,22 * * *'
   workflow_dispatch:
 
 jobs:
